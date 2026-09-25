@@ -1,0 +1,29 @@
+# Virtual environments
+venv/
+venv310/
+.venv/
+handenv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model files (the trained model is published as a GitHub Release asset)
+*.keras
+*.h5
+
+# Videos, extracted frames and datasets (private, not published)
+*.mp4
+*.avi
+*.mov
+*.zip
+asl_finetune_data/
+asl_single_finetune/
+
+# User uploads from the web app
+static/uploads/
+
+# Local tool settings and personal notes
+.claude/
+.vscode/
+Notes.txt
