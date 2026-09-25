@@ -27,3 +27,7 @@ static/uploads/
 .claude/
 .vscode/
 Notes.txt
+
+# Environment secrets
+.env
+.env.*
